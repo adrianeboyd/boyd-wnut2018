@@ -49,8 +49,8 @@ files for the experiment.
 
 The original corpora are available at:
 
-- Falko: https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/falko/zugang
-- MERLIN: https://merlin-platform.eu
+- [Falko](https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/falko/zugang)
+- [MERLIN](http://hdl.handle.net/20.500.12124/6)
 
 Tables linking the Falko/MERLIN sentence pairs to their text IDs from 
 the original corpora are in `data/source/`. For both corpora, the `ctok` 
@@ -186,4 +186,11 @@ data:
 
 ```
 python filter_m2.py -filt wiki-unfiltered.m2 -ref fm-train.m2 -out wiki-filtered.m2
+```
+
+Convert the filtered wiki m2 back to a plaintext file of parallel 
+sentences:
+
+```
+python m2_to_parallel.py -m2 wiki-filtered.m2 -out wiki-filtered.src-trg.txt
 ```
