@@ -149,7 +149,7 @@ were used for these experiments.
 Install spacy and download the German models:
 
 ```
-pip install-U spacy==2.0.11
+pip install -U spacy==2.0.11
 python -m spacy download de
 ```
 
