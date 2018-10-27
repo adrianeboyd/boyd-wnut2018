@@ -1,6 +1,9 @@
 # Low Resource Grammatical Error Correction Using Wikipedia Edits
 
-Please cite the following publication:
+This repository contains the code and data for: [Low Resource Grammatical Error
+Correction Using Wikipedia Edits](http://aclweb.org/anthology/W18-6111)
+
+Please use the following citation:
 
 ```
 @InProceedings{boyd2018wnut,
@@ -9,11 +12,12 @@ Please cite the following publication:
   booktitle = {Proceedings of the 4th Workshop on Noisy User-generated Text},
   publisher = {Association for Computational Linguistics},
   year      = {2018},
+  url       = {http://aclweb.org/anthology/W18-6111}
 }
 ```
 
 To replicate the experiments in the paper, install mlconvgec2018 and 
-download the data and models as described below.
+download the data and models as described in the following section.
 
 To generate grammatical error correction data using the method presented 
 in the paper, see [Generating GEC Data with Wiki Edits and 
