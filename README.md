@@ -44,7 +44,7 @@ and [m2scorer
 ## Download Data
 
 Download the Falko-MERLIN GEC Corpus and German Wikipedia data:
-[data.tar.gz](http://www.sfs.uni-tuebingen.de/~adriane/download/wnut2018/data.tar.gz)
+[data.tar.gz](https://github.com/adrianeboyd/boyd-wnut2018/releases/download/wnut2018/data.tar.gz)
 
 Run `./prepare-training-data.sh` in `data/` to generate the training 
 files for the experiment.
@@ -70,7 +70,7 @@ Falko-MERLIN GEC Corpus.
 ## Download Models
 
 Download the BPE and embeddings models: 
-[models.tar.gz](http://www.sfs.uni-tuebingen.de/~adriane/download/wnut2018/models.tar.gz)
+[models.tar.gz](https://github.com/adrianeboyd/boyd-wnut2018/releases/download/wnut2018/models.tar.gz)
 
 Due to its size, the language model is not provided for download.
 
